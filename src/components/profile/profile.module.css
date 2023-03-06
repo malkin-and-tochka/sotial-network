@@ -1,0 +1,17 @@
+.profileWrapper{
+  background: #141414;
+  
+  padding: 50px 0;
+  width: 100%;
+
+  color: #fff;
+}
+
+.postButton{
+  background: #222;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+.postButton:hover{
+  background: #575757;
+}

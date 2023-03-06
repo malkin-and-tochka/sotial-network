@@ -1,0 +1,29 @@
+.textarea{
+  margin-top: 20px;
+  background: #222222;
+  border-radius: 5px;
+  border: 2px solid #575757;
+  height: 50px;
+  padding-left: 10px;
+}
+.postButton{
+  margin-top: 10px;
+  background: #222;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+.postButton:hover{
+  background: #575757;
+}
+.error{
+  margin-top: 20px;
+  background: #222222;
+  border-radius: 5px;
+  height: 50px;
+  padding-left: 10px;
+  border: 2px solid rgb(95, 9, 9);
+}
+.textError{
+  font-size: 17px;
+  color: rgb(155, 10, 10);
+}

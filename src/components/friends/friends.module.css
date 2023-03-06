@@ -1,0 +1,15 @@
+.friendsWrapper{
+  background: #141414;
+  padding: 50px 0;
+  width: 100%;
+}
+.friends{
+  background: #222222;
+  border-radius: 15px;
+  padding: 20px;
+  width: 60%;
+}
+img{
+  height: 60px;
+  width: 60px;
+}

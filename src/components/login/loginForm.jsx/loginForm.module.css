@@ -1,0 +1,28 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+.textarea{
+  margin-top: 15px;
+  border-radius: 5px;
+  background: #c9e1fa;
+  border: 2px solid #000;
+  height: 30px;
+  padding-left: 10px;
+  margin-bottom: 24px;
+}
+.error{
+  margin-top: 15px;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 10px;
+  border: 2px solid rgb(166, 10, 10);
+}
+.textError{
+  height: 17px;
+  font-size: 17px;
+  color: rgb(155, 10, 10);
+}

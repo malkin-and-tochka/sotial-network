@@ -1,0 +1,26 @@
+.navWrapper{
+  grid-area: nav;
+  background: #141414;
+
+  padding: 50px 10px 0 300px;
+
+  height: calc(100vh - 50px);
+}
+.navItem{
+  font-size: 20px;
+}
+.navItem a{
+  display: block;
+  width: 150px;
+  padding-left: 5px;
+  padding: 4px 0 4px 4px;
+  color: #768C9E;
+  border-radius: 5px;
+}
+.navItem a.active{
+  color: #5EB5F7;
+} 
+.navItem a:hover{
+  color: #fff;
+  background: #424242;
+}

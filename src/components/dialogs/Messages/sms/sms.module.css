@@ -1,0 +1,9 @@
+.smsWrapper{
+  background: #3d85bc;
+  padding: 7px 12px;
+  margin-right: 25px;
+  margin-top: 15px;
+  border-radius: 15px;
+  font-size: 15px;
+  width: fit-content;
+}

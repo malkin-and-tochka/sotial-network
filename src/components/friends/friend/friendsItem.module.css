@@ -1,0 +1,38 @@
+.friendsItemWrapper{
+  color: #8494a4;
+  width: 100%;
+  border-bottom: 1px solid #424242;
+}
+.friendsItemWrapper:nth-child(5){
+  border: none;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+}
+.avatarSircle img{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+}
+.userName{
+  color: #768C9E;
+}
+.button{
+  color: #fff;
+  background: #424242;
+  padding: 4px 7px;
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+.button:hover{
+  background: #575757;
+}
+.button:active{
+  background: #676770;
+}

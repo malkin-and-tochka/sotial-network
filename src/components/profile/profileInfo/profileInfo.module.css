@@ -1,0 +1,93 @@
+.profileWrapper{
+  background: #141414;
+  
+  padding: 50px 0;
+  width: 100%;
+
+  color: #fff;
+}
+.profile{
+  background: #222222;
+  border-radius: 15px;
+  padding: 20px;
+  min-width: 60%;
+  max-width: 70%;
+  min-height: 250px;
+}
+.row{
+  display: flex;
+  max-height: 145px;
+}
+.userIconWrapper{
+  min-width: 145px;
+  min-height: 145px;
+  border-radius: 50%;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userIcon{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+.userInfo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  gap: 30px;
+}
+.topInfo{
+  display: flex;
+  justify-content: space-between;
+}
+.userName{
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.moreInfo{
+  align-self: flex-end;
+  width: 100px;
+  height: 30px;
+  background: #333333;
+
+  color: #fff;
+  font-weight: 600;
+}
+.moreInfo{
+  display: flex;
+  padding-left: 10px;
+  gap: 20px;
+  transition: 0.2s;
+}
+.moreInfo:hover{
+  gap: 30px;
+  background: #575757;
+}
+.bottomInfo{
+  display: flex;
+  color: #768C9E;
+  gap: 30px;
+}
+
+textarea{
+  margin-top: 20px;
+  background: #222222;
+  border-radius: 5px;
+  border: 2px solid #575757;
+}
+.postButton{
+  background: #222;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+.postButton:hover{
+  background: #575757;
+}
+input{
+  background: #fff;
+}

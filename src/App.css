@@ -1,0 +1,13 @@
+@import "./reset.css";
+
+.site-wrapper{
+  display: grid;
+  grid: "header header" 50px
+        "nav main" 1fr/ 1fr 5fr;
+  max-height: 100vh;
+}
+.site-wrapper-content{
+  grid-area: main;
+  display: flex;
+  height: calc(100vh - 50px);
+}

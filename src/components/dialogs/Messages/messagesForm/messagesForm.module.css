@@ -1,0 +1,36 @@
+.bot{
+  grid-area: bot;
+  height: 50px;
+}
+.bottomInput{
+  padding: 0;
+  display: flex;
+  border: none;
+  border-radius: 0;
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  background: #182431;
+  border: none;
+  color: #8494a4;
+  opacity: 0.5;
+  height: 100%;
+}
+.bottomInput:hover{
+  background: #1e2d3c;
+  border: none;
+}
+.bottomInput:focus{
+  color: #fff;
+}
+.father{
+  position: relative;
+}
+.messageButton{
+  position: absolute;
+  top: -45px;
+  right: 0;
+  color: red;
+  padding: 10px;
+}

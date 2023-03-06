@@ -1,0 +1,26 @@
+.dialogWrapper__item{
+  color: #8494a4;
+  width: 300px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  width: 100%;
+}
+.row:hover{
+  background: none;
+}
+.dialogWrapper__item:hover{
+  background: #202B36;
+}
+.avatarSircle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #000;
+}
+.userName{
+  color: #768C9E;
+}
