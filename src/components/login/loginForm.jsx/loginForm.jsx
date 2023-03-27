@@ -30,18 +30,29 @@ const LoginForm = (props) => {
             {({isSubmitting, handleBlur, status, errors, touched}) => (
                 <Form className={style.form}>
                     {status}
+                    <p>Login</p>
                     <Field onBlur={handleBlur} type="login" name="login" placeholder='login'
                            className={!(errors.login && touched.login) ? style.textarea : style.error}/>
                     {errors.login && touched.login && <p className={style.textError}>{errors.login}</p>}
+                    <p>Email</p>
                     <Field type="email" name="email" placeholder='email'
                            className={!(errors.email && touched.email) ? style.textarea : style.error}/>
                     {errors.email && touched.email && <p className={style.textError}>{errors.email}</p>}
+                    <p>Password</p>
                     <Field type="password" name="password" placeholder='password'
                            className={!(errors.password && touched.password) ? style.textarea : style.error}/>
                     {errors.password && touched.password && <p className={style.textError}>{errors.password}</p>}
-                    <button type="submit" disabled={isSubmitting}>
-                        Remember me
-                    </button>
+                    <div className={style.row}>
+                        <button className={style.btn} type="submit" disabled={isSubmitting}>
+                            Enter
+                        </button>
+                        <div className={style.bottomBtn}>
+                            Not registered?
+                            <button className={style.register}>
+                                <a href="https://social-network.samuraijs.com/signUp">Register</a>
+                            </button>
+                        </div>
+                    </div>
                 </Form>
             )}
         </Formik>

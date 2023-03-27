@@ -1,18 +1,22 @@
 .form{
   display: flex;
   flex-direction: column;
-  height: 250px;
-  border: 1px solid red;
+  height: 380px;
+  width: 300px;
   justify-content: space-between;
+  background: #222222;
+  padding: 20px 30px;
+  border-radius: 15px;
 }
 .textarea{
-  margin-top: 15px;
+  margin-top: 10px;
   border-radius: 5px;
-  background: #c9e1fa;
+  background: #fff;
   border: 2px solid #000;
   height: 30px;
-  padding-left: 10px;
+  padding: 5px 0 5px 10px;
   margin-bottom: 24px;
+  font-weight: 600;
 }
 .error{
   margin-top: 15px;
@@ -25,4 +29,37 @@
   height: 17px;
   font-size: 17px;
   color: rgb(155, 10, 10);
+}
+p{
+  color:#fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 14px;
+}
+.bottomBtn{
+  width: 100px;
+}
+form button{
+  color: #fff;
+  margin-top: 10px;
+  padding: 5px 5px;
+  width: 100px;
+  border-radius: 10px;
+  height: 35px;
+}
+.btn{
+  background: #1DAF30;
+  align-self: end;
+}
+.register{
+  background: #52ABF8;
+  justify-self: end;
+}
+.register a{
+  color: #fff;
 }
