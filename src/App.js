@@ -8,6 +8,7 @@ import {connect, Provider} from 'react-redux';
 import {initializeApp} from './redux/auth-reduce';
 import Preloader from './common/Preloader';
 import store from "./redux/redux-store";
+
 const ProfileContainer = React.lazy(() => import('./components/profile/profileContainer'));
 const DialogsContainer = React.lazy(() => import('./components/dialogs/dialogsContainer'));
 const FriendsContainer = React.lazy(() => import('./components/friends/friendContainer'));
@@ -50,12 +51,12 @@ const mapStateToProps = (state) => ({
 let AppContainer = connect(mapStateToProps, {initializeApp})(App)
 
 const MainApp = () => {
-  return(
-      <React.StrictMode>
-        <Provider store={store}>
-          <AppContainer/>
-        </Provider>
-      </React.StrictMode>
-      )
+    return (
+        <React.StrictMode>
+            <Provider store={store}>
+                <AppContainer/>
+            </Provider>
+        </React.StrictMode>
+    )
 }
 export default MainApp

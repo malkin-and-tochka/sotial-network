@@ -13,6 +13,16 @@
   min-width: 60%;
   max-width: 70%;
   min-height: 250px;
+  transition: 0.3s;
+}
+.profileEditMode{
+  background: #222222;
+  border-radius: 15px;
+  padding: 20px;
+  min-width: 60%;
+  max-width: 70%;
+  min-height: 700px;
+  transition: 0.3s;
 }
 .row{
   display: flex;
@@ -54,18 +64,18 @@
   width: 100px;
   height: 30px;
   background: #333333;
-
   color: #fff;
   font-weight: 600;
-}
-.moreInfo{
+  border-radius: 5px;
+
+  margin-left: 30px;
   display: flex;
   padding-left: 10px;
-  gap: 20px;
-  transition: 0.2s;
+  gap: 10px;
+  transition: 0.3s;
 }
 .moreInfo:hover{
-  gap: 30px;
+  gap: 15px;
   background: #575757;
 }
 .bottomInfo{

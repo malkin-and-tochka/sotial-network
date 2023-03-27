@@ -1,0 +1,21 @@
+.userInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #94b5cd;
+    width: 80%;
+}
+input{
+    margin-top: 10px;
+    background: #9ea1b2;
+    color: #000;
+}
+.profileDataFormButton{
+    background: #424242;
+    color: #fff;
+    width: 110px;
+    height: 25px;
+    border-radius: 8px;
+    margin-top: 15px;
+    align-self: end;
+}

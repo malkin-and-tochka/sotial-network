@@ -12,7 +12,7 @@ const Profile = (props) => {
 
     return (
         <div className={style.profileWrapper}>
-            <ProfileInfo updateStatus={props.updateStatus} status={props.status} props={props}/>
+            <ProfileInfo saveProfile={props.saveProfile} profile={props.profile} updateStatus={props.updateStatus} status={props.status} props={props}/>
             <ProfilePostFormMemo {...props}/>
             <MyPosts posts={props.postsState.postsData}/>
         </div>

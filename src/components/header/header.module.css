@@ -1,5 +1,53 @@
-.header{
-  grid-area: header;
-  background: #1e2e3e;
+.header {
+    grid-area: header;
+    background: #222222;
+    display: flex;
+  justify-content: end;
 }
 
+.topWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 160px;
+  margin-right: 20px;
+  gap: 5px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #424242;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.logout:hover {
+    background: #575757;
+}
+.topWrapperLogin{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 140px;
+  margin-right: 0px;
+}
+.logIn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #424242;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 5px;
+  width: 60px;
+}
+.logIn:hover{
+  background: #575757;
+}
+
+.userName {
+    color: #fff;
+}

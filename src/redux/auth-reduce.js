@@ -57,14 +57,18 @@ export const authMe = () => {
         }
     }
 }
-export const login = (email, password, rememberMe, setStatus) => {
+export const login = (email, password, rememberMe) => {
     return async (dispatch) => {
         let data = await authAPI.login(email, password, rememberMe)
         if (data.data.resultCode === 0) {
             dispatch(authMe(email, password, rememberMe, true))
-        } else {
-            setStatus(data.data.messages)
         }
+        // else {
+        //     if(data.data.resultCode === 10){
+        //         alert('captcha')
+        //     }
+        //     setStatus(data.data.messages)
+        // }
     }
 }
 export const logout = () => {

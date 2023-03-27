@@ -2,7 +2,7 @@ import Post from './post/post'
 
 const MyPosts = (props) =>{
   let post = props.posts.map((p) => 
-    <Post userName={p.name} id={p.id} post={p.post}/>
+    <Post key={p.id} userName={p.name} id={p.id} post={p.post}/>
   )
   return(
     <ul>

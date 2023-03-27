@@ -1,10 +1,10 @@
-import s from './header.module.css'
+import style from './header.module.css'
 import { NavLink } from 'react-router-dom';
 
 const Header = (props)=> {
   return (
-    <header className={s.header}>
-      {props.isAuth ? <div>{props.login} <button onClick={props.logout}>logout</button></div> : <NavLink to={'/login'}>login</NavLink>}
+    <header className={style.header}>
+      {props.isAuth ? <div className={style.topWrapper}><span className={style.userName}>{props.login}</span><button onClick={props.logout}  className={style.logout}>Logout</button></div> : <div className={style.topWrapperLogin}><NavLink className={style.logIn} to={'/login'}>login</NavLink></div> }
     </header>
   );
 }
