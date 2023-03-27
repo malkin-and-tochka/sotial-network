@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sotial-network/static/css/main.6a21cd9d.css",
-    "main.js": "/sotial-network/static/js/main.c34fb041.js",
+    "main.css": "/sotial-network/static/css/main.f6436bcd.css",
+    "main.js": "/sotial-network/static/js/main.b4ff2451.js",
     "static/css/143.a65f1aa1.chunk.css": "/sotial-network/static/css/143.a65f1aa1.chunk.css",
     "static/js/143.9273dd05.chunk.js": "/sotial-network/static/js/143.9273dd05.chunk.js",
     "static/css/442.82812fad.chunk.css": "/sotial-network/static/css/442.82812fad.chunk.css",
@@ -11,8 +11,8 @@
     "static/js/787.9ce9f379.chunk.js": "/sotial-network/static/js/787.9ce9f379.chunk.js",
     "static/media/loading.gif": "/sotial-network/static/media/loading.9c2ed23e5e93809fab7d.gif",
     "index.html": "/sotial-network/index.html",
-    "main.6a21cd9d.css.map": "/sotial-network/static/css/main.6a21cd9d.css.map",
-    "main.c34fb041.js.map": "/sotial-network/static/js/main.c34fb041.js.map",
+    "main.f6436bcd.css.map": "/sotial-network/static/css/main.f6436bcd.css.map",
+    "main.b4ff2451.js.map": "/sotial-network/static/js/main.b4ff2451.js.map",
     "143.a65f1aa1.chunk.css.map": "/sotial-network/static/css/143.a65f1aa1.chunk.css.map",
     "143.9273dd05.chunk.js.map": "/sotial-network/static/js/143.9273dd05.chunk.js.map",
     "442.82812fad.chunk.css.map": "/sotial-network/static/css/442.82812fad.chunk.css.map",
@@ -22,7 +22,7 @@
     "787.9ce9f379.chunk.js.map": "/sotial-network/static/js/787.9ce9f379.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a21cd9d.css",
-    "static/js/main.c34fb041.js"
+    "static/css/main.f6436bcd.css",
+    "static/js/main.b4ff2451.js"
   ]
 }
